@@ -1,0 +1,10 @@
+2/17/20: version 0.1
+
+Current status:
+Created class to represent chords, with a library of common (and uncommon) chords in chords.py.
+chordTester.py asks for a root note and outputs a bunch of information about the chords and notes 
+in the keys with that root note.
+
+Next step:
+Create writeChord() function, which will write a given chord to a MIDI file.
+writeChord(chord, inv, oct, len)
